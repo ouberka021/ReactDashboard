@@ -1,9 +1,7 @@
 :root {
-  --dark-cerulean: #f1f3f5;
+  --dark-cerulean: #F7F7F7;
   --maastricht-blue: #ffffff;
   --yankees-blue: #fbfbfb;
-  --sea-serpent: #5bc0be;
-  --aquamarine: #484848;
   --react: #040404;
 }
 
@@ -23,6 +21,8 @@ body {
   background: var(--yankees-blue);
   height: 100vh;
   width: 80%;
+  
+  
   
 }
 
@@ -68,8 +68,6 @@ WebVisit {
 
 .dashboard {
   grid-area: Menu;
-  /* border: solid red 2px; */
-  /* background-color: var(--dark-cerulean); */
   margin: 10px;
   padding: 10px;
  font-family: 'Courier New', Courier, monospace;
@@ -81,9 +79,9 @@ WebVisit {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
-  background: rgb(255, 255, 255, 0.1);
+
 }
 
 .dashboard {
@@ -95,7 +93,7 @@ WebVisit {
   content: "";
   position: absolute;
   width: 150px;
-  height: 130%;
+  height: 110%;
 }
 
 .dashboard::after {
@@ -103,7 +101,7 @@ WebVisit {
   position: absolute;
   inset: 4px;
   background: var(--dark-cerulean);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .dashboardText {
@@ -125,9 +123,9 @@ WebVisit {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
-  background: rgb(255, 255, 255, 0.1);
+
 }
 
 .reviews {
@@ -138,7 +136,7 @@ WebVisit {
 .reviews::before {
   content: "";
   position: absolute;
-  width: 150px;
+  width: 100px;
   height: 130%;
 }
 
@@ -147,7 +145,7 @@ WebVisit {
   position: absolute;
   inset: 4px;
   background: var(--dark-cerulean);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .reviewsText {
@@ -180,7 +178,7 @@ WebVisit {
 .avgRating::before {
   content: "";
   position: absolute;
-  width: 150px;
+  width: 100px;
   height: 130%;
 }
 
@@ -213,7 +211,7 @@ WebVisit {
   align-items: center;
   border-radius: 5px;
   overflow: hidden;
-  background: rgb(255, 255, 255, 0.1);
+
 }
 
 .sentAnalysis {
@@ -243,7 +241,6 @@ WebVisit {
 
 .webVisitors {
   grid-area: WebVisit;
-  /* border: solid red 2px; */
   background-color: var(--dark-cerulean);
   margin: 10px;
   padding: 10px;
@@ -258,7 +255,7 @@ WebVisit {
   align-items: center;
   border-radius: 5px;
   overflow: hidden;
-  background: rgb(255, 255, 255, 0.1);
+
 }
 
 .webVisitors {
@@ -279,7 +276,7 @@ WebVisit {
   position: absolute;
   inset: 4px;
   background: var(--dark-cerulean);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .webText {
