@@ -1,0 +1,287 @@
+:root {
+  --dark-cerulean: #f1f3f5;
+  --maastricht-blue: #ffffff;
+  --yankees-blue: #fbfbfb;
+  --sea-serpent: #5bc0be;
+  --aquamarine: #484848;
+  --react: #040404;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 80%;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px;
+  
+}
+
+.container {
+  display: grid;
+  display: flex;
+  background: var(--yankees-blue);
+  height: 100vh;
+  width: 80%;
+  
+}
+
+.container {
+  display: grid;
+  grid-template:
+    'Header Header Header Header'
+    'Menu Reviews AvgRating SentAnalysis'
+    'Menu WebVisit WebVisit WebVisit'
+    'footer footer footer footer'
+    ;
+
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 50px;
+
+}
+
+Header {
+  display: flex;
+}
+
+Menu {
+  display: flex;
+}
+
+Reviews {
+  display: flex;
+}
+
+AvgRating {
+  display: flex;
+}
+
+SentAnalysis {
+  display: flex;
+}
+
+WebVisit {
+  display: flex;
+}
+
+
+.dashboard {
+  grid-area: Menu;
+  /* border: solid red 2px; */
+  /* background-color: var(--dark-cerulean); */
+  margin: 10px;
+  padding: 10px;
+ font-family: 'Courier New', Courier, monospace;
+  color: var(--react)
+}
+
+.dashboard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgb(255, 255, 255, 0.1);
+}
+
+.dashboard {
+  z-index: 1000;
+  position: relative;
+}
+
+.dashboard::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+}
+
+.dashboard::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: var(--dark-cerulean);
+  border-radius: 10px;
+}
+
+.dashboardText {
+  z-index: 1;
+}
+
+
+
+.reviews {
+  grid-area: Reviews;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--react)
+}
+
+.reviews {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgb(255, 255, 255, 0.1);
+}
+
+.reviews {
+  z-index: 1000;
+  position: relative;
+}
+
+.reviews::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+}
+
+.reviews::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: var(--dark-cerulean);
+  border-radius: 10px;
+}
+
+.reviewsText {
+  z-index: 1;
+}
+
+.avgRating {
+  grid-area: AvgRating;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--react)
+}
+
+.avgRating {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgb(255, 255, 255, 0.1);
+}
+
+.avgRating {
+  z-index: 1000;
+  position: relative;
+}
+
+.avgRating::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+}
+
+.avgRating::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: var(--dark-cerulean);
+  border-radius: 5px;
+}
+
+.avgRatingText {
+  z-index: 1;
+}
+
+
+.sentAnalysis {
+  grid-area: SentAnalysis;
+  background-color: var(--dark-cerulean);
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--react)
+}
+
+.sentAnalysis {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgb(255, 255, 255, 0.1);
+}
+
+.sentAnalysis {
+  z-index: 1000;
+  position: relative;
+}
+
+.sentAnalysis::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 130%;
+}
+
+.sentAnalysis::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: var(--dark-cerulean);
+  border-radius: 5px;
+}
+
+.sentiText {
+  z-index: 1;
+}
+
+
+.webVisitors {
+  grid-area: WebVisit;
+  /* border: solid red 2px; */
+  background-color: var(--dark-cerulean);
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--react)
+}
+
+.webVisitors {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgb(255, 255, 255, 0.1);
+}
+
+.webVisitors {
+  z-index: 1000;
+  position: relative;
+}
+
+.webVisitors::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 400%;
+
+}
+
+.webVisitors::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: var(--dark-cerulean);
+  border-radius: 10px;
+}
+
+.webText {
+  z-index: 1;
+}
