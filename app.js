@@ -69,8 +69,11 @@ const WebsiteVisitors = () => {
   return ( 
           <div className="webVisitors">
             <div className="webText">
-          <h1>Website Visitors</h1>
-          <h2>821</h2> 
+          <h3>Website Visitors</h3>
+          <h4>821</h4> 
+          </div>
+          <div className="webCont">
+          
           </div>
           </div>
           )
